@@ -36,8 +36,8 @@ This repository contains my solutions to the JPMorgan Chase &amp; Co. Quantitati
 
 ### Computed Expected Loss (EL) using:
 
-```python
-EL=PD×Exposure×(1−Recovery Rate)```
+
+> EL=PD×Exposure×(1−Recovery Rate)
 
 ### Addressed:
   - Target leakage
