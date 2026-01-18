@@ -34,9 +34,10 @@ This repository contains my solutions to the JPMorgan Chase &amp; Co. Quantitati
 ### Implemented:
 - Gradient Boosting
 
-## Computed Expected Loss (EL) using:
+### Computed Expected Loss (EL) using:
 
-```EL=PD×Exposure×(1−Recovery Rate)```
+```python
+EL=PD×Exposure×(1−Recovery Rate)```
 
 ### Addressed:
   - Target leakage
@@ -48,7 +49,7 @@ This repository contains my solutions to the JPMorgan Chase &amp; Co. Quantitati
   - Classification and model comparison
   - Expected loss estimation
 
-### Task 4 – Optimal FICO Score Bucketing (Quantization)
+## Task 4 – Optimal FICO Score Bucketing (Quantization)
 - Designed a general, data-driven approach to discretize FICO scores into categorical risk ratings.
 - Implemented maximum likelihood–based quantization using dynamic programming.
 
